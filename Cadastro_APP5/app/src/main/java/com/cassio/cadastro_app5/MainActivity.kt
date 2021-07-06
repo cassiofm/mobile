@@ -10,7 +10,7 @@ import android.util.Log
 import android.widget.*
 import androidx.appcompat.app.AlertDialog
 import com.cassio.cadastro_app5.Usuario
-//import kotlinx.android.synthetic.main.activity_main.*
+import kotlinx.android.synthetic.main.activity_main.*
 import java.util.*
 
 class MainActivity : AppCompatActivity() {
