@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+    <ImageView
+            android:layout_width="180dp"
+            android:layout_height="170dp"
+            app:srcCompat="@drawable/cassio_vintage"
+            android:id="@+id/imgMe"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toTopOf="@+id/txtNome"
+            app:layout_constraintVertical_bias="0.0"
+            android:layout_marginTop="32dp"
+            android:layout_marginBottom="16dp"/>
+
+    <TextView
+            android:text="Cássio Félix"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtNome"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            app:layout_constraintBottom_toTopOf="@+id/btnSobre"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginBottom="16dp"
+            android:textAllCaps="false"
+            android:typeface="normal"/>
+
+    <Button
+            android:text="Sobre"
+            android:layout_width="232dp"
+            android:layout_height="48dp"
+            android:id="@+id/btnSobre"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtNome"
+            android:layout_marginTop="36dp"
+            android:textSize="18sp"/>
+
+    <Button
+            android:text="Formação"
+            android:layout_width="232dp"
+            android:layout_height="48dp"
+            android:id="@+id/btnFormacao"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnSobre"
+            android:layout_marginTop="4dp"
+            android:textSize="18sp"/>
+
+    <Button
+            android:text="Experiência"
+            android:layout_width="232dp"
+            android:layout_height="48dp"
+            android:id="@+id/btnExperiencia"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnFormacao"
+            android:layout_marginTop="4dp"
+            android:textSize="18sp"/>
+
+    <Button
+            android:text="Objetivos"
+            android:layout_width="232dp"
+            android:layout_height="48dp"
+            android:id="@+id/btnObjetivo"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnExperiencia"
+            android:layout_marginTop="4dp"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintVertical_bias="0.0"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
