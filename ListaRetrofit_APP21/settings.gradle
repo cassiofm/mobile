@@ -1,2 +1,0 @@
-include ':app'
-rootProject.name = "ListaRetrofit_APP21"
