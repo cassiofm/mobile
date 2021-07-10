@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">CadastroPets_APP11</string>
+    <string name="titulo_lista">Lista de Pets</string>
+    <string name="titulo_cadastro">Cadastro de Pets</string>
+</resources>
